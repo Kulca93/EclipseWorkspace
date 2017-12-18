@@ -1,0 +1,45 @@
+
+public class Map extends GameMain {
+	
+
+	
+	public void initialiseMap() {
+
+		for(int x=0; x<5; x++) {
+			for(int y=0; y<5; y++) 
+			
+			gameMap[x][y] = temp;
+			
+		}
+					
+		
+			
+			startPosition();
+		}
+	
+	public static void startPosition() {
+		gameMap[3][3] = 5;
+		
+		
+	}	
+	
+	public static void showMap() {
+		for(int x=0; x<5; x++) {
+			for(int y=0; y<5; y++) 
+				System.out.print(gameMap[x][y] + " ");
+				System.out.println("");
+			
+			}
+		
+	}
+	
+	
+}
+
+	
+
+	
+
+	
+
+

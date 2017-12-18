@@ -1,0 +1,17 @@
+
+public class GameMain {
+	
+	public int[][] gameMap = new int[5][5]; 
+	public int playerPosition = new startPosition(7); 
+	System.out.println(startPosition(5));
+	public int temp = 0;
+
+	public static void main(String[] args) {
+	//GameMain obj = new GameMain();
+		Map gameMap = new Map();
+		gameMap.printMap();
+		Character character = new Character();
+		character.startPosition();
+	}
+
+}

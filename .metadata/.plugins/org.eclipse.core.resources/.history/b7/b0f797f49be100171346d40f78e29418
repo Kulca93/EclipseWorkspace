@@ -1,0 +1,13 @@
+
+public class Character {
+	//starting position
+
+	
+	public void startPosition() {
+		playerPosition = gameMap[5][5];
+		playerPosition[3][3] = "7";
+}
+	
+}
+
+u

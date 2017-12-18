@@ -1,0 +1,14 @@
+
+public class Character extends GameMain{
+	//starting position
+
+	
+
+		public void startPosition() {
+			gameMap[2][2] = 5;
+		
+	}
+	
+	
+}
+

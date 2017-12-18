@@ -1,0 +1,14 @@
+
+public class Character extends GameMain{
+	//starting position
+
+	
+	public void startPosition() {
+		playerPosition = gameMap[3][3] ;
+		playerPosition = 5;
+		
+		System.out.println(playerPosition);
+	}
+	
+}
+

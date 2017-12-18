@@ -1,0 +1,13 @@
+
+public class playerMovement {
+	int x;
+	int y;
+	
+	public PlayerPostiion(int x, int y) {
+		this.x = x;
+		this.y = y;
+		
+	}
+	
+	
+}

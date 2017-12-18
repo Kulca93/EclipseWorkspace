@@ -1,0 +1,20 @@
+
+public class GameMain {
+	
+	public int[][] gameMap = new int[5][5]; 
+	public int temp = 0;
+	public int playerPosition;
+
+	public static void main(String[] args) {
+	//GameMain obj = new GameMain();
+		Map gameMap = new Map();
+		gameMap.printMap();
+		Character character = new Character();
+		character.startPosition();
+	}
+	
+	public void startPosition() {
+		gameMap[3][3] = 5;
+		playerPosition = 5;
+	}
+}

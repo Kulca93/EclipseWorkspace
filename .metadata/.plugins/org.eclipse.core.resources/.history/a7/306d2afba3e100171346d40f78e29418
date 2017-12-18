@@ -1,0 +1,32 @@
+
+public class Map extends GameMain {
+	
+
+	
+	public void printMap() {
+
+		for(int x=0; x<5; x++) {
+			for(int y=0; y<5; y++) 
+			
+			gameMap[x][y] = temp;
+			
+		}
+					
+		for(int x=0; x<5; x++) {
+			for(int y=0; y<5; y++) 
+				System.out.print(gameMap[x][y] + " ");
+				System.out.println("");
+			
+			}
+			
+			
+		}
+	}
+
+	
+
+	
+
+	
+
+

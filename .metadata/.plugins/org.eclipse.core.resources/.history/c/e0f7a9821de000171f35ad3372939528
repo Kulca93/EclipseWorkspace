@@ -1,0 +1,28 @@
+package goldilocks;
+
+import java.util.ArrayList;
+
+public class Problem {
+	
+	ArrayList<Measurements> input;
+
+	public Problem(ArrayList<Measurements> input) {
+		
+		this.input = input;
+	}
+	
+	
+	public ArrayList<Integer> numSeats(){ 
+		ArrayList<Integer> goodSeats = new ArrayList<Integer>();
+		
+		Measurements goldilocks = input.get(0); 
+		for (int i=1; i<input.size();i++) {
+			if (goldilocks.getWeight() <= input.get(i).getWeight() && goldilocks.getTemperature() >= input.get(i).getTemperature()) {
+				goodSeats.add(i);
+				
+			}
+		}
+		return goodSeats;
+	}
+	
+}

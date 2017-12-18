@@ -1,0 +1,24 @@
+
+public class Main {
+		
+	
+	public static int number =  12345;
+	
+		
+	public static void main(String[] args) {
+			
+			public void printNumber() {
+			System.out.println(number);
+
+			
+			
+			
+//	if(number.length > 3) {
+		
+	}
+
+	
+}
+}
+
+/* if */

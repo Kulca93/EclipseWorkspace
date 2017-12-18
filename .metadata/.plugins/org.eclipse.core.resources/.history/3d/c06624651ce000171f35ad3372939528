@@ -1,0 +1,14 @@
+package goldilocks;
+
+import java.util.ArrayList;;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ArrayList<Measurements> input = new ArrayList<>();
+		
+		input.add(new Measurements(100, 80));
+
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class Beginner {
+
+	public static void main(String[] args) {
+		Beginner obj = new Beginner();
+		obj.printWord("HelloWorld");
+
+	}
+	
+	public void printWord(String text) {
+		System.out.println(text);
+	}
+}

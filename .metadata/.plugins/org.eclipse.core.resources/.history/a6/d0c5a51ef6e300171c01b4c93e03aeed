@@ -1,0 +1,36 @@
+
+import java.util.Scanner;
+
+public class GameMain {
+	
+	public static int[][] gameBoard = new int[5][5]; 
+
+
+	public static void main(String[] args) {
+
+		Character character = new Character();	
+		Map gameMap = new Map();
+		Events newEvent = new Events();
+		
+		
+		gameMap.initialiseMap();
+		
+		character.setStartPosition();
+		gameBoard = newEvent.setTreasurePosition(gameBoard);
+		gameBoard = newEvent.setMonsterPosition(gameBoard);
+		
+		gameMap.drawMap();
+		
+		//Crate Scanner
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Enter Your Direction(N, E, S, W).");
+		Scanner.nextChar();
+
+		
+		
+	}
+	
+	
+	
+}

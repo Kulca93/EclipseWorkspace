@@ -1,0 +1,25 @@
+package goldilocks;
+
+import java.util.ArrayList;;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ArrayList<Measurements> input = new ArrayList<>();
+		
+		input.add(new Measurements(100, 80));
+		input.add(new Measurements(30, 50));
+		input.add(new Measurements(130, 75));
+		input.add(new Measurements(90, 60));
+		input.add(new Measurements(150, 85));
+		input.add(new Measurements(120, 70));
+		input.add(new Measurements(200, 200));
+		input.add(new Measurements(110, 100));
+
+		Problem obj = new Problem(input);
+		
+		System.out.println(obj.numSeats());
+
+	}
+
+}

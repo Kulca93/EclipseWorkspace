@@ -1,0 +1,55 @@
+
+public class playerMovement extends GameMain {
+	int x;
+	int y;
+	
+	public void playerPostion(int x, int y) {
+		this.x = x;
+		this.y = y;
+		
+	}
+	
+	public void moveNorth() {
+		if (x > 0 == true) {
+			x -= 1;
+		
+	}	else {
+		System.out.println("Cannot move North");
+	}
+		
+}
+		
+	public void moveSouth() {
+		if (x < 4 == true) {
+		x += 1;
+	
+		} else {
+		System.out.println("Cannot move South");
+		}	
+
+}
+		
+	public void moveEast() {
+		if (y > 0 == true) {
+			y -= 1;
+				
+	} else {
+		System.out.println("Cannot move East");
+			}
+}
+	
+	public void moveWest() {
+		if (y < 4 == true ) {
+			y += 1;
+	} else {
+		System.out.println("Cannot move West");
+	}
+}
+	
+	
+	
+	
+	
+}
+	
+

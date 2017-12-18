@@ -1,0 +1,24 @@
+
+public class GameMain {
+	
+	public static int[][] gameMap = new int[5][5]; 
+	public int temp = 0;
+	public int playerPosition;
+
+	public static void main(String[] args) {
+
+		Character character = new Character();	
+		Map gameMap = new Map();
+		Events treasure = new Events();
+		
+		
+		gameMap.initialiseMap();
+		character.startPosition();
+		treasure.treasurePosition();
+		gameMap.showMap();
+		
+		
+		
+	}
+	
+}

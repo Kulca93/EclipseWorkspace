@@ -1,0 +1,10 @@
+
+public class Events extends GameMain {
+	//case statement?
+	
+	public void treasurePosition() {
+		
+		gameMap[4][4] = 2;
+	}
+	
+	}

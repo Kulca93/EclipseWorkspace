@@ -1,0 +1,11 @@
+
+public class Character {
+	//starting position
+
+	
+	public void Movement(String[] args) {
+	//movement
+}
+	
+}
+
