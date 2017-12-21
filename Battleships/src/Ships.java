@@ -2,10 +2,10 @@
 public abstract class Ships {
 
 	// Values each ship must return
-	int length;
-	String name;
-	char shipCharacter;
-	int healthPoints;
+	private int shipSize;
+	private String name;
+	private char shipCharacter;
+	private int healthPoints;
 
 	// Ship getters and setters
 	public int getHealthPoints() {
@@ -25,11 +25,11 @@ public abstract class Ships {
 	}
 
 	public int getLength() {
-		return length;
+		return shipSize;
 	}
 
-	public void setLength(int length) {
-		this.length = length;
+	public void setLength(int shipSize) {
+		this.shipSize = shipSize;
 	}
 
 	public String getName() {
@@ -41,7 +41,7 @@ public abstract class Ships {
 	}
 
 	// Abstract classes
-	public abstract int length();
+	public abstract int shipSize();
 
 	public abstract String name();
 

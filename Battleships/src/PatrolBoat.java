@@ -2,15 +2,16 @@
 public class PatrolBoat extends Ships {
 	
 	//Values for ship
-	int length = 2;
-	String name = "Patrol Boat";
-	char shipCharacter = 'P';
-	int healthPoints = 2;
+	private int shipSize = 2;
+	private String name = "Patrol Boat";
+	private char shipCharacter = 'P';
+	private int healthPoints = 2;
+
 	
 	//Constructors for ships
-	public int length() {
+	public int shipSize() {
 		
-		return length;
+		return shipSize;
 	}
 
 	public String name() {

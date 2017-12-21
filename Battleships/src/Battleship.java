@@ -3,15 +3,15 @@ public class Battleship extends Ships {
 	
 	//Values for ship
 	
-	int length = 3;
-	String name = "Patrol Boat";
-	char shipCharacter = 'B';
-	int healthPoints = 3;
+	private int shipSize = 3;
+	private String name = "Patrol Boat";
+	private char shipCharacter = 'B';
+	private int healthPoints = 3;
 
 	//Constructors for ships
-	public int length() {
+	public int shipSize() {
 
-		return length;
+		return shipSize;
 	}
 
 	public String name() {

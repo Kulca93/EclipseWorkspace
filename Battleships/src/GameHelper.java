@@ -1,25 +1,14 @@
 import java.util.ArrayList;
 
-public class Grid {
-
+public class GameHelper {
+	
 	public char[][] gridBoard = new char[3][3];
 	public static final String alphabet = "abcdefg";
 	private int gridLength = 3;
 	private int gridSize = 9;
 	private int[] grid = new int[gridSize];
-	private int shipCount = 0;
+	private int shipCount = 0;[]
 
-	// Initialises Grid
-	public void initialiseGrid() {
-
-		for (int x = 0; x < 3; x++) {
-			for (int y = 0; y < 3; y++)
-
-				gridBoard[x][y] = 'o';
-
-		}
-	}
-	
 	ArrayList<String> placeShip(int shipSize) {
 		ArrayList<String> alphaCells = new ArrayList<String>();
 		String[] alphaCoords = new String[shipSize];
@@ -69,25 +58,5 @@ public class Grid {
 		}
 		return alphaCells;
 	}
-	
-	
-//	public char[][] placeShip() {
-//		
-//		
-//		
-//		gridBoard[1][1] = 'S';
-//		gridBoard[1][2] = 'S';
-//		
-//		return gridBoard;
-//	}
-
-	// Print Grid
-	public void drawGrid() {
-		for (int x = 0; x < 3; x++) {
-			for (int y = 0; y < 3; y++)
-				System.out.print("|" + gridBoard[x][y] + "|");
-			System.out.println("");
-
-		}
-	}
 }
+
