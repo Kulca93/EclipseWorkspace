@@ -7,7 +7,7 @@ public class Main {
 
 		createBoard(board);
 	//	printBoard(board);
-		createShip(board,2);
+		createShip(board,3);
 		printBoard(board);
 
 	}
@@ -37,7 +37,7 @@ public class Main {
 	public static void createShip(String[][] board, int size) {
 		if (Math.random() < 0.5) {
 			// horizontal
-			int col = (int) (Math.random() * 2);
+			int col = (int) (Math.random() * 1);
 			int row = (int) (Math.random() * board[0].length);
 			for (int i = 0; i < size; i++) {
 				board[row][col + i] = "h";
@@ -45,7 +45,7 @@ public class Main {
 
 		} else {
 			// vertical
-			int row = (int) (Math.random() * 2);
+			int row = (int) (Math.random() * 1);
 			int col = (int) (Math.random() * board[0].length);
 			for (int i = 0; i < size; i++) {
 				board[row + i][col] = "v";

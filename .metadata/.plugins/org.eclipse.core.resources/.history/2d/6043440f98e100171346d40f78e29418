@@ -1,9 +1,0 @@
-
-public class GameMain {
-
-	public static void main(String[] args) {
-		GameMain obj = new GameMain();
-		obj.printMap();
-	}
-
-}
