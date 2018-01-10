@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22854" started-at="2018-01-10T17:01:46Z" finished-at="2018-01-10T17:02:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22854" started-at="2018-01-10T17:01:46Z" finished-at="2018-01-10T17:02:09Z">
+      <class name="test.test.QaTools">
+        <test-method status="PASS" signature="openChrome()[pri:1, instance:test.test.QaTools@70ed52de]" name="openChrome" duration-ms="6765" started-at="2018-01-10T17:01:46Z" finished-at="2018-01-10T17:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+        <test-method status="PASS" signature="draggable()[pri:2, instance:test.test.QaTools@70ed52de]" name="draggable" duration-ms="5189" started-at="2018-01-10T17:01:53Z" finished-at="2018-01-10T17:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draggable -->
+        <test-method status="PASS" signature="resizable()[pri:4, instance:test.test.QaTools@70ed52de]" name="resizable" duration-ms="5792" started-at="2018-01-10T17:01:58Z" finished-at="2018-01-10T17:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resizable -->
+        <test-method status="PASS" signature="selectable()[pri:5, instance:test.test.QaTools@70ed52de]" name="selectable" duration-ms="5091" started-at="2018-01-10T17:02:04Z" finished-at="2018-01-10T17:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectable -->
+      </class> <!-- test.test.QaTools -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
