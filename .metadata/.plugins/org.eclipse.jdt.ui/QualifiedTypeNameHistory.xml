@@ -10,4 +10,5 @@
 <fullyQualifiedTypeName name="com.aventstack.extentreports.ExtentTest"/>
 <fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
+<fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
 </qualifiedTypeNameHistroy>
